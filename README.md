@@ -32,8 +32,17 @@ Github_username : DeadSkill
 - Choisir un port hôte (exemple 22)
 - Choisir un IP invité
 - Lancer la machine virtuelle
+- Installer Vagrant
+    > sudo apt-get install vagrant
+
+- Initialiser vagrant
+    > vagrant init hashicorp/bionic64
+
+- Puis lancer le provider
+    > vagrant up --provider=virtualbox
+
 - Installer Ubuntu Server
-- Installer node.js :
+- Installer node.js
 - Lancer les commandes :
     > sudo apt-get update
     > sudo apt-get install nodejs npm
